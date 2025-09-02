@@ -6,6 +6,7 @@ public class DiscountCalculator {
             case REGULAR: return amount * 0.95;
             case PREMIUM: return amount * 0.90;
             default: return amount;
+            //teste 
         }
     }
 }
